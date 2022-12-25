@@ -21,7 +21,7 @@ const routerop = require("./routes/routerop");
 const cookieParser = require("cookie-parser");
 const authRoutes = require("./routes/auth");
 //const port = 8003;
-//const port2 = 8080;
+
 const port = process.env.PORT || 8003;
 
 app.use(cors());
